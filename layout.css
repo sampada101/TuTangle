@@ -1,11 +1,27 @@
+*{
+  font-family: "muli", sans-serif;
+}
 body{
   padding: 0px;
   margin: 0px;
+}
+a{
+  text-decoration: none;
+  color: black;
 }
 .header {
   background-color: #7dd9e8;
   width: 100%;
   height: 100px
+}
+.header-2-content{
+  padding-left:11px
+}
+.header-2-content-inner{
+  height: 50px
+}
+.header-2-content-inner:hover{
+  background-color: #ffffff;
 }
 .search-input{
   background: url('search_01.png') no-repeat; 
@@ -25,25 +41,20 @@ body{
 }
 .column {
   float: left;
-  padding: 10px;
 }
 
 /* Left and right column */
 .column.side {
-  width: 12%;
+  width: 20%;
   height: 700px;
   border-style: hidden;
 }
 
 /* Middle column */
 .column.middle {
-  width: 65%;
+  width: 55%;
   border-style: hidden;
-  height: 500px;
-  padding-top: 10px;
-  padding-right: 10px;
-  padding-bottom: 10px;
-  padding-left: 10px;
+  height: 700px;
 }
 
 /* Clear floats after the columns */
@@ -53,11 +64,160 @@ body{
   clear: both;
   padding-top: 10px
 }
+.searches-head{
+  height: 4%; 
+  background-color: #2fc1da; 
+  color: white;
+  font-size: 20px; 
+  text-align: center; 
+  padding: 4px
+}
+.searches-content{
+  height: 5%; 
+  font-size: 12px; 
+  padding-top: 10px; 
+  text-align: left; 
+  padding-left: 4px;
+  background-color: #f5f5f5;
+  color: black;
+}
+.searches-content:hover{
+  background-color: white
+}
+.profile-text:hover{
+  color: white
+}
 footer{
   background-color: #727272;
   height: 40px;
   padding-top: 20px;
-  padding-left: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
   color: white;
   font-size: 15px
+}
+.mid-head-img-1{
+  padding: 25px;
+  padding-left: 5px;
+  background: url(mid-back.png);
+  background-repeat: no-repeat;
+  background-size: 550px 110px;
+}
+.inner-active{
+  padding-top: 2px;
+  padding-right: 25px;
+  background: url(active-tab_03.png);
+  background-repeat: no-repeat;
+  background-size: 120px 30px;
+}
+
+.center {
+  float: right;
+  width: 518px;
+}
+
+.left-curve {
+  background: url("big-curve-left.png") top left no-repeat;
+}
+.center-title {
+  font-size: 24pt;
+  padding-bottom: 12px;
+}
+
+.center-menu {
+  border-bottom: 2px solid #2fc1da;
+  text-align: center;
+}
+.right-curve {
+  background: url("big-curve-right.png") top right no-repeat;
+  padding: 0px 10px;
+  overflow: hidden;
+}
+.button-left-curve {
+  background: url("small-curve-left-inactive.png") top left no-repeat;
+}
+.menu-label {
+  padding: 12px 0;
+  font-size: 10pt;
+}
+
+.left-menu {
+  width: 238px;
+  background: #f5f5f5;
+  float: left;
+  padding-right: 10px;
+}
+
+.right-menu {
+  width: 238px;
+  background: #f5f5f5;
+  float: right;
+  padding-left: 10px;
+}
+
+.left-button {
+  float: left;
+}
+
+.right-button {
+  float: right;
+}
+
+.button-right-curve {
+  background: url("small-curve-right-inactive.png") top right no-repeat;
+  padding: 0px 10px;
+}
+
+.button-right-curve a {
+  display: inline-block;
+  background: #dddddd;
+  padding: 11px 0 5px 0;
+  font-size: 9pt;
+  width: 96px;
+}
+
+.button-right-curve a:hover {
+  color: #949494;
+}
+
+.button-right-curve.active a {
+  background: #2fc1da;
+  color: #ffffff;
+}
+
+.button-right-curve.active a:hover {
+  color: #ddf0f3;
+}
+.inner-content{
+  width: 100%;
+  height: 8%;
+}
+.inner-content-text:hover{
+  color: #00FFFF;
+}
+.inner-content-text{
+  color: #87CEEB;
+}
+.inner-content-text-sub{
+  color: green;
+}
+.inner-content-text-sub:hover{
+  color: #00FFFF;
+}
+.inner-content-text-invite{
+  color: red;
+}
+.inner-content-text-invite:hover{
+  color: #00FFFF
+}
+.button-left-curve.active {
+  background: url("small-curve-left.png") top left no-repeat;
+}
+
+.button-right-curve.active {
+  background: url("small-curve-right.png") top right no-repeat;
+}
+hr{
+  border-style: solid;
+  border-color: #f5f5f5;
 }
